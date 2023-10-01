@@ -67,6 +67,7 @@ let alphaNums = ['A', 'B', 'C', 'D', 'E', 'F', 'G',
 
                   output.className = "correctCaptcha";
                     output.innerHTML = "Correct!";
+                    window.location.href = "sksk.html";
                     userText.value = "";
                    
                 }
